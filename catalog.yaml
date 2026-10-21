@@ -1,0 +1,9 @@
+# catalog.yaml — Refco's own playbooks, shared with every Refco agent.
+schema_version: 1
+skills_root: skills/
+
+categories:
+  collections: "How Refco chases, words and records overdue payments"
+
+sets:
+  collections-desk: [overdue-triage, reminder-wording]
